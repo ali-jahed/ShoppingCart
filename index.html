@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>cart</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="title">
+            <h1>Test shop</h1>
+        </div>
+        <div class="cart-icon">
+            <span>1</span>
+            <i class="fa-solid fa-basket-shopping"></i>
+        </div>
+    </header>
+    <main>
+        <div class="backdrop"></div>
+        <div class="cart">
+            <h3 class="cart-title">Your cart</h3>
+                <div class="cart-item">
+                    <img src="assests/Package-PNG-Clipart.png" alt="">
+                    <div class="cart-item-details">
+                        <p class="price">1$</p>
+                        <p class="name">Item 1</p>
+                    </div>
+                    <div class="cart-item-controler">
+                        <div class="quantity">
+                            <i class="fa-solid fa-chevron-up"></i>
+                            <span>1</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="remove">
+                            <i class="fa-regular fa-trash-can"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-footer">
+                    <p class="total-price">total price <span>1$</span></p>
+                    <button class="cart-btn">clear cart</button>
+                    <button class="cart-btn">confirm</button>
+                    <button class="cart-btn close-cart">close<i class="fas fa-window-close"></i></button>
+                </div>
+            </div>
+        <div class="product">
+            <h2>Our Product</h2>
+        </div>
+        <div class="items">
+            <div class="item">
+                <img src="assests/Package-PNG-Clipart.png" alt="">
+                <div class="details">
+                    <p class="price">1$</p>
+                    <p class="name">Item 1</p>
+                </div>
+                <button class="btn">Add to cart</button>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
