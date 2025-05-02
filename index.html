@@ -20,7 +20,7 @@
             <h1>Test shop</h1>
         </div>
         <div class="cart-icon">
-            <span>1</span>
+            <span class="cart-quantity">0</span>
             <i class="fa-solid fa-basket-shopping"></i>
         </div>
     </header>
@@ -28,7 +28,8 @@
         <div class="backdrop"></div>
         <div class="cart">
             <h3 class="cart-title">Your cart</h3>
-                <div class="cart-item">
+            <div class="cartContent">
+                <!-- <div class="cart-item">
                     <img src="assests/Package-PNG-Clipart.png" alt="">
                     <div class="cart-item-details">
                         <p class="price">1$</p>
@@ -36,22 +37,24 @@
                     </div>
                     <div class="cart-item-controler">
                         <div class="quantity">
-                            <i class="fa-solid fa-chevron-up"></i>
+                            <i class="fa-solid fa-chevron-up" data-id=${cartItem.id></i>
                             <span>1</span>
-                            <i class="fa-solid fa-chevron-down"></i>
+                            <i class="fa-solid fa-chevron-down" data-id=${cartItem.id></i>
                         </div>
                         <div class="remove">
-                            <i class="fa-regular fa-trash-can"></i>
+                            <i class="fa-regular fa-trash-can" data-id=${cartItem.id}></i>
                         </div>
                     </div>
-                </div>
-                <div class="cart-footer">
-                    <p class="total-price">total price <span>1$</span></p>
-                    <button class="cart-btn">clear cart</button>
-                    <button class="cart-btn">confirm</button>
-                    <button class="cart-btn close-cart">close<i class="fas fa-window-close"></i></button>
-                </div>
+                </div> -->
             </div>
+
+            <div class="cart-footer">
+                <p class="total-priceT">total price <span class="total-price">0</span><span>$</span></p>
+                <button class="cart-btn clear-cart">clear cart</button>
+                <button class="cart-btn">confirm</button>
+                <button class="cart-btn close-cart">close<i class="fas fa-window-close"></i></button>
+            </div>
+        </div>
         <div class="product">
             <h2>Our Product</h2>
         </div>
@@ -62,7 +65,7 @@
                     <p class="price">1$</p>
                     <p class="name">Item 1</p>
                 </div>
-                <button class="btn">Add to cart</button>
+                <button class="btn add-to-cart">Add to cart</button>
             </div> -->
         </div>
     </main>
